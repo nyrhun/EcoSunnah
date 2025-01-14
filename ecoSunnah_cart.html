@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSunnah - Cart</title>
+    <link rel="stylesheet" href="ecoSunnah.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="ecoSunnah.js"></script>
+    <style>
+        /* Center the cart section */
+        #cart-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Horizontal centering */
+            justify-content: center; /* Vertical centering */
+            text-align: center;
+            min-height: 80vh; /* Ensure it takes most of the viewport height */
+            margin: 0 auto; /* Center the section horizontally */
+        }
+
+        /* Style the button */
+        #checkout-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Ensure the cart items are also centered */
+        #cart-items {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EcoSunnah</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ecoSunnah_aboutUs.html">About Us</a></li>
+                <li><a href="ecoSunnah_products.html">Products</a></li>
+                <li><a href="ecoSunnah_contact.html">Contact Us</a></li>
+                <li><a href="ecoSunnah_cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="cart-section">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <button id="checkout-btn">Proceed to Checkout</button>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <!-- Customer Service Section -->
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li>Help Centre</li>
+                    <li>Payment Information</li>
+                    <li>Shipping & Returns</li>
+                    <li>FAQs</li>
+                </ul>
+            </div>
+    
+            <!-- Contact Information Section -->
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p>082-123456</p>
+                <p>enquiries@ecosunnah.com</p>
+                <p>EcoSunnah Main Office, Jalan Gombak, 53100</p>
+            </div>
+    
+            <!-- Social Media Section -->
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-media">
+                    <img src="footer_FB.png" alt="Facebook Logo">
+                    <img src="footer_IG.png" alt="Instagram Logo">
+                    <img src="footer_X.png" alt="Twitter Logo">
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2023 EcoSunnah. All rights reserved.</p>
+    </footer>
+</body>
+</html>

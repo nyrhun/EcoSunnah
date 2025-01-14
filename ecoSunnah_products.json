@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Water Bottle",
+        "price": 25.00,
+        "category": "others",
+        "image":"reusablewaterbottle.jpg"
+    },
+    {
+        "name": "Organic Dates",
+        "price": 50.00,
+        "category": "food",
+        "image":"dates.jpg"
+    },
+    {
+        "name": "Eco Shopping Bag",
+        "price": 15.00,
+        "category": "others",
+        "image":"shoppingbag.jpg"
+    },
+    {
+        "name": "Black Abaya",
+        "price": 75.00,
+        "category": "clothing",
+        "image":"abaya2.jpg"
+    },
+    {
+        "name": "Bakhoor Set",
+        "price": 50.00,
+        "category": "home&living",
+        "image":"bakhoor.jpg"
+    },
+    {
+        "name": "Henna Hair Dye",
+        "price": 25.00,
+        "category": "health&beauty",
+        "image":"henna.jpg"
+    }
+]

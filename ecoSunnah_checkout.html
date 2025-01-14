@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoSunnah - Checkout</title>
+    <link rel="stylesheet" href="ecoSunnah.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="ecoSunnah.js"></script>
+</head>
+<body>
+    <header>
+        <h1>EcoSunnah</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ecoSunnah_aboutUs.html">About Us</a></li>
+                <li><a href="ecoSunnah_products.html">Products</a></li>
+                <li><a href="ecoSunnah_contact.html">Contact Us</a></li>
+                <li><a href="ecoSunnah_cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="checkout-section">
+        <div class="checkout-container">
+            <h2 class="page-title">Checkout</h2> <!-- Checkout Title -->
+    
+            <div class="checkout-content">
+                <!-- Order Summary -->
+                <div class="order-summary">
+                    <h3>Order Summary</h3>
+                    <div id="checkout-items">
+                        <!-- Cart items will be dynamically loaded here -->
+                    </div>
+                    <h3>Total: RM <span id="total-price">25.00</span></h3>
+                </div>
+                <!-- Checkout Form -->
+                <form id="checkout-form" class="checkout-form">
+                    <h3>Billing Details</h3>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name" />
+                    <span id="name-error" class="error-message">This field is required.</span>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email" />
+                    <span id="email-error" class="error-message">This field is required.</span>
+    
+                    <label for="address">Shipping Address:</label>
+                    <textarea id="address" placeholder="Enter your shipping address"></textarea>
+                    <span id="address-error" class="error-message">This field is required.</span>
+    
+                    <h3>Payment Information</h3>
+                    <label for="card">Card Number:</label>
+                    <input type="text" id="card" maxlength="12" placeholder="1234 5678 9012" />
+                    <span id="card-error" class="error-message">This field is required.</span>
+    
+                    <label for="expiry">Expiry Date:</label>
+                    <input type="text" id="expiry" placeholder="MM/YY" />
+                    <span id="expiry-error" class="error-message">This field is required.</span>
+    
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" maxlength="3" placeholder="123" />
+                    <span id="cvv-error" class="error-message">This field is required.</span>
+    
+                    <button type="submit" class="btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <div class="footer-content">
+            <!-- Customer Service Section -->
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li>Help Centre</li>
+                    <li>Payment Information</li>
+                    <li>Shipping & Returns</li>
+                    <li>FAQs</li>
+                </ul>
+            </div>
+    
+            <!-- Contact Information Section -->
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p>082-123456</p>
+                <p>enquiries@ecosunnah.com</p>
+                <p>EcoSunnah Main Office, Jalan Gombak, 53100</p>
+            </div>
+    
+            <!-- Social Media Section -->
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-media">
+                    <img src="footer_FB.png" alt="Facebook Logo">
+                    <img src="footer_IG.png" alt="Instagram Logo">
+                    <img src="footer_X.png" alt="Twitter Logo">
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2023 EcoSunnah. All rights reserved.</p>
+    </footer>
+</body>
+</html>
