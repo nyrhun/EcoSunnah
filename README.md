@@ -1,52 +1,30 @@
-# Project Name : EcoSunnah 🌿
+# Project Name : EcoSunnah
 
-EcoSunnah is a dynamic e-commerce website designed to provide users with a platform to shop for halal, eco-friendly, and sustainable products. The project demonstrates seamless user experience by utilizing HTML, CSS, JavaScript, and AJAX for dynamic content loading. EcoSunnah brings together products that are environmentally friendly, beautifully presented, and a breeze to purchase. Whether you're adding items to your cart or checking out, every interaction is designed to make you feel like you're shopping at your favorite high-end boutique. Now, who wouldn’t want that?
+EcoSunnah is a web-based e-commerce platform featuring halal, eco-friendly, and sustainable products. The project provides users with a platform to browse product categories, view product details, manage shopping cart items, and proceed through a checkout process.
+The website is developed using HTML, CSS, and JavaScript, with AJAX for asynchronous data loading and form submissions. A Node.js and Express backend handles server-side requests and contact form submissions.
 
-## Features ✨
+## Features
 
-- **User-Friendly Interface**: Clean and simple layout with intuitive navigation.
-- **Dynamic Product Loading**: Products are loaded dynamically using AJAX from a JSON file.
-- **Shopping Cart**: Add items to the cart and view them in real-time.
-- **Checkout Page**: A simple form for payment details and order confirmation.
-- **Contact Form**: Submit user queries via AJAX without reloading the page.
-- **Responsive Design**: Ensures compatibility across devices.
-- **Categories & Filters**: Because every product deserves its place in the world.
+- Product Browsing: Browse products across different categories.
+- Dynamic Product Loading: Retrieve and display product information from a JSON file using AJAX.
+- Category Filtering: Filter products based on their respective categories.
+- Shopping Cart: Add, remove, and manage selected products.
+- Checkout: Review cart items and complete the checkout form.
+- Contact Form: Submit enquiries through asynchronous form submission without reloading the page.
+- Responsive Design: Adapt the website layout to different screen sizes.
 
-## How to Run This Fabulous Project Locally 💫
+## Technologies Used
 
-1. **Extract the Files**  
-   Unzip the files you've just received. Trust me, you'll want to get started right away. Other option is to clone the repository:
-   ```bash
-   git clone https://github.com/nyrhun/EcoSunnah.git
-2. **Open `ecoSunnah_index.html`**  
-   Navigate to the project folder. Open the `ecoSunnah_index.html` file in your preferred browser. You’ll immediately be transported into an enchanting world of sustainable shopping.
+- **HTML5**: Structure and content of web pages
+- **CSS3**: Website styling and responsive layouts
+- **JavaScript**: Client-side functionality and interactivity
+- **jQuery**: DOM manipulation and AJAX requests
+- **JSON**: Storage and retrieval of product information
+- **Node.js**: Server-side runtime environment
+- **Express**: Backend routing and request handling
+- **CORS**: Cross-origin resource sharing configuration
 
-3. **For the Ultimate Shopping Experience:**  
-   For that flawless local server experience, use tools like `Live Server` in VS Code. It's truly the secret ingredient for our project’s smooth operation.
-
-4. **Optional—Run the Backend Server (If You Want to Be Extra):**  
-   If you're feeling fancy and want to enable form submission capabilities:
-   - Navigate to your terminal and install the necessary dependencies with `npm install`.
-   - Run the server by typing `node server.js` (Or just `node app.js`).
-   - Now your local server is up and running on port 3000.
-5. Navigate through the pages:
-    Categories: Browse products and add them to the cart.
-    Cart: View selected items and proceed to checkout.
-    Checkout: Complete your purchase using the checkout form.
-    Contact Us: Submit queries dynamically without reloading the page.
-
-
-## Technologies Used 🛠️
-
-- **HTML5**: The canvas for all things beautiful and functional.
-- **CSS3**: Stylish designs with modern, responsive elements to adapt to any screen size.
-- **JavaScript**: Bringing everything to life with smooth interactivity.
-- **jQuery**: For sleek AJAX calls and DOM manipulation—because why not make life easier?
-- **Node.js**: Powers the backend server, handling form submissions with grace.
-- **Express**: A minimalist framework for your backend server, keeping everything neat and tidy.
-- **CORS**: For seamless integration with external requests.
-
-## Project Structure 📂
+## Project Structure
 
 The project consists of the following files:
 
@@ -62,13 +40,62 @@ The project consists of the following files:
 10. `ecoSunnah_server.js` sets up the backend server, handles routes, and manages API requests.
 11. `node.js` handles the server-side logic, manages product data, and facilitates contact form submissions.
 
-## Contact 
-If you have any questions, feel free to reach out:
+## Getting Started
 
-Email: nuwairahhanan@gmail.com
-GitHub: [nyrhun](https://github.com/nyrhun)
+### Prerequisites
 
-### 📱 Stay Chic, Stay Green 🌍
-This website is designed to make your experience as effortless as a Sunday brunch. Let this website bloom just like your style. 🌸
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- Visual Studio Code (recommended)
 
-Happy shopping (or coding) — and don’t forget to live eco-friendly, it’s the new black! 💅🏼
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/nyrhun/EcoSunnah.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd EcoSunnah
+   ```
+
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Running the Project
+
+1. Start the backend server:
+
+   ```bash
+   node src/ecoSunnah_server.js
+   ```
+
+2. Open the website through the configured local server address.
+
+   Alternatively, use the Live Server extension in Visual Studio Code to preview the frontend, provided the required backend services are running separately.
+
+3. Navigate through the available pages to explore the website's features.
+
+## Main Website Pages
+
+| Page | Description |
+|---|---|
+| Home | Displays the website's main content and featured products. |
+| About Us | Provides information about EcoSunnah. |
+| Products | Displays available products with category filtering. |
+| Cart | Allows users to review and manage selected items. |
+| Checkout | Provides the checkout form and order summary. |
+| Contact Us | Allows users to submit enquiries through a contact form. |
+
+## Contact
+
+For enquiries or further information:
+
+- **Email:** nuwairahhanan@gmail.com
+- **GitHub:** [nyrhun](https://github.com/nyrhun)
